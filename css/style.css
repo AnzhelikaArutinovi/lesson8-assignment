@@ -1,7 +1,8 @@
+/* elements styles */
+
 body {
     background-color: #684A85;
 }
-
 .image-bg {
     position: relative;
 }
@@ -15,7 +16,6 @@ body {
     background-position: bottom;
     background-repeat: no-repeat
 }
-
 .saturn-img {
     height: 150px;
     position: absolute;
@@ -56,7 +56,7 @@ body {
     opacity: 0%;
     bottom: 20px;
     right: 0px;
-    animation: boat 7s 1 13s;
+    animation: boat 7s 1 12s;
 }
 .spaceship-img {
     height: 250px;
@@ -90,11 +90,11 @@ body {
 
 
 /* Keyframes Rules */
+
 @keyframes saturn {
     from {transform: rotate(0deg);}
     to {transform: rotate(360deg);}
 }
-
 @keyframes meteor1 {
     0% {top: 200px; right: 200px; opacity: 1;}
     25% {top: 300px; right: 300px; opacity: 1;}
@@ -113,7 +113,6 @@ body {
 @keyframes boat {
     0% {right: -100px; bottom: 10px; opacity: 100%;}
     25% {right: 500px; bottom: 10px; opacity: 100%}
-    50% {right: 500x; bottom: 10px; opacity: 100%}
     100% {right: -100px; bottom: 10px; opacity: 100%; transform: scaleX(-1);}
 }
 @keyframes spaceship {
